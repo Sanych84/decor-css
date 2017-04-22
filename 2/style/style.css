@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.parent,
+.parent2 {
+	border: solid 1px grey;
+	position: relative;
+	background: #ccc;
+	width: 200px;
+	margin: 50px;
+}
+
+.child,
+.child2 {
+	position: absolute;
+	background: #000;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.8;
+	transition-duration: 3s;
+	transition-timing-function: ease-in-out;
+}
+
+.parent:hover .child {
+	transform: rotateZ(90deg);
+	transform-origin: bottom left;
+}
+
+.parent2:hover .child2 {
+	transform: translateX(200px);
+	transform-origin: bottom left;
+}
