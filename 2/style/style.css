@@ -23,14 +23,13 @@
 	opacity: 0.8;
 	transition-duration: 3s;
 	transition-timing-function: ease-in-out;
+	transform-origin: bottom left;
 }
 
 .parent:hover .child {
 	transform: rotateZ(90deg);
-	transform-origin: bottom left;
 }
 
 .parent2:hover .child2 {
 	transform: translateX(200px);
-	transform-origin: bottom left;
 }

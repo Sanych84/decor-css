@@ -83,7 +83,7 @@ li{
 	background: linear-gradient(to right, #fbfbfb 40%,#eaeaea 46%,#fbfbfb 54%);
 }
 ol li:nth-child(1):before{
-	content: '01';
+	content: '0' counter(number);
 	position: absolute;
 	font-family: Georgia;
 	font-size: 75px;
@@ -99,7 +99,7 @@ ol li:nth-child(1):before{
 	padding-top: 32px;
 }
 ol li:nth-child(2):before{
-	content: '02';
+	content: '0' counter(number);
 	position: absolute;
 	font-family: Georgia;
 	font-size: 75px;
@@ -115,7 +115,7 @@ ol li:nth-child(2):before{
 	padding-top: 32px;
 }
 ol li:nth-child(3):before{
-	content: '03';
+	content: '0' counter(number);
 	position: absolute;
 	font-family: Georgia;
 	font-size: 75px;
@@ -131,7 +131,7 @@ ol li:nth-child(3):before{
 	padding-top: 32px;
 }
 ol li:nth-child(4):before{
-	content: '04';
+	content: '0' counter(number);
 	position: absolute;
 	font-family: Georgia;
 	font-size: 75px;
